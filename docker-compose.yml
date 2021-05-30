@@ -4,6 +4,7 @@ services:
     image: nginx:1.15.6
     ports:
       - "8000:80"
+      - "6001:6001"
     depends_on:
       - app
     volumes:
